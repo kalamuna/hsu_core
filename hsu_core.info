@@ -1,0 +1,9 @@
+name = HSU Core
+description = A place for misc OpenHSU things.
+core = 7.x
+package = hsu
+php = 5.2.4
+version = 7.x-1.x
+project = hsu_core
+
+features[features_api][] = api:2
