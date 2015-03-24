@@ -4,8 +4,6 @@
  * Code for hsu_core
  */
 
-include_once 'hsu_core.features.inc';
-
 /**
  * Implements hook_filter_default_formats_alter()
  *
