@@ -1,6 +1,12 @@
 <?php
 /**
  * @file
+ * Code for the OpenHSU Core feature.
+ */
+
+include_once 'hsu_core.features.inc';
+/**
+ * @file
  * Code for hsu_core
  */
 
@@ -28,7 +34,7 @@ function hsu_core_update_projects_alter(&$projects) {
   // Setup information about managed components to remove from the update managed
   $managed_things = array();
   $managed_things[] = 'kalatheme'; // adding base theme
-  //$managed_things[] = 'hsu_webspark_bootstrap'; // adding subtheme
+  $managed_things[] = 'hsu_kalatheme'; // adding subtheme
   $managed_things[] = 'cas'; // CAS library module
   $managed_things[] = 'hsu_cas'; // hsu CAS and More
   $managed_things[] = 'admin_menu';
